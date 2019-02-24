@@ -1,3 +1,4 @@
+# Change some Arabic characters when querying in Oracle
 ## Firstly, you need to use replace function to replace أ to ا
  ```REPLACE(p_text, 'أ', 'ا' )```
  ### Replace another character like ة to ه
